@@ -1,29 +1,40 @@
 {
   "expo": {
-    "name": "lma-mobile",
+    "name": "LMA Jeus Cristo",
     "slug": "lma-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+      "scheme": "your-app-scheme",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    
+    // "splash": {
+    //   "image": "./assets/logo.png",
+    //   "resizeMode": "cover",
+    //   "backgroundColor": "#cb245c"
+    // },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+    //    "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#cb245c"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.thiago321.lmamobile"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1f4f3ab8-9f3c-4066-a699-e4f6ca0ffb79"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
